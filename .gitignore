@@ -1,0 +1,8 @@
+
+application.properties
+*.properties
+/.metadata/
+*.metadata
+*.DS_Store
+
+.vscode

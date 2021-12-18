@@ -1,0 +1,329 @@
+.search {
+  margin-bottom: auto;
+  margin-top: auto;
+  height: 70px;
+  background-color: #fff;
+  border-radius: 40px;
+  padding: 10px;
+ 
+}
+
+
+#search_hostpital{
+  font-weight: bold;
+  font-size: 1.17em;
+  margin:auto;
+  padding: auto;
+  text-align: center;
+  padding-top: 0.4em;
+
+}
+
+.search_input {
+  color: black;
+  border: 0;
+  outline: 0;
+  background: none;
+  width: 0;
+  margin-top: 5px;
+  caret-color: transparent;
+  line-height: 40px;
+  transition: width 0.4s linear;
+}
+
+.search .search_input {
+  padding: 0 10px;
+  width: 550px;
+  caret-color: #e1a963;
+  transition: width 0.4s linear;
+  border-bottom: 1px solid black;
+  margin-top: 4%;
+}
+
+#search_box {
+  margin:auto;
+}
+
+.search:hover > .search_icon:hover {
+  background: #e1a86398 !important;
+  color: #fff !important;
+  
+}
+#search_bar{
+  height: 35px;
+}
+
+.search_icon {
+  height: 50px;
+  width: 50px;
+  float: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: #e1a963 !important;
+  background-color: rgba(255, 255, 255, 0.445) !important;
+  border : none;
+  transition : all 0.2s linear;
+  margin-top: 4%;
+}
+/* .custom_aboutUs_img {
+  width: 50%;
+  height: 90vh;
+  background: url(../images/yellowdog.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+
+a:link {
+  text-decoration: none;
+}
+.custom_margin {
+  margin-top: 7rem !important;
+  margin-bottom: 10rem !important;
+  margin-right: 0;
+  margin-left:0;
+  text-align: center;
+  padding-top: 6%;
+
+}
+.custom_aboutUsBox {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 10%;
+  box-sizing: unset !important;
+}
+.custom_aboutUsBox2 {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  margin-top: 5%;
+  margin: 10%;
+  justify-content: space-evenly;
+  margin-bottom: 15rem;
+  box-sizing: unset !important;
+  align-items: center;
+}
+
+.custom_aboutUs_textBox {
+  width: 40%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0%;
+  text-align: right;
+}
+
+.custom_aboutUs_textBox2 {
+  width: 40%;
+  height: 15vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0%;
+  vertical-align: center;
+  margin: 0;
+  text-align: left;
+}
+.aboutUs_title {
+  font-size: 2rem;
+  padding-left:10%;
+  padding-top: 0;
+}
+.index_video {
+  width: 38%;
+  height: 90vh;
+}
+
+.custom_btn {
+  width: 9rem;
+    height: 3rem;
+    color: white;
+    background-color: #EFC778;
+    border-style: none;
+    margin: 10%;
+    /* text-align: center; */
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.custom_btn2 {
+  width: 7rem;
+  height: 2rem;
+  color:white;
+  background-color: #EFC778;
+  border-style: none;
+  font-size: 18px;
+}
+.custom_btn:hover{
+  background-color: #e1a963;
+}
+.custom_btn2:hover{
+  background-color: #e1a963;
+}
+.custom_aboutUs_innerTextBox {
+  width: 100%;
+  padding-top: 0;
+  padding-right: 10;
+  font-size: 1.1rem;
+  padding-left: 10%;
+  padding-bottom: 0;
+}
+@media (max-width: 991.98px ),( min-width: 614px){
+  .custom_aboutUs_innerTextBox  {
+    font-size: 0.8rem;
+  }
+  }
+.custom_hr {
+  width: 20%;
+}
+.charity_box {
+  display: flex;
+  width: 100%;
+  border: 1px solid black;
+  box-sizing: border-box;
+  justify-content: space-evenly;
+}
+.charity_box_inner {
+  margin-right: 10px;
+}
+.text_custom {
+  font-size: 50px;
+}
+.inner-box {
+  position: relative;
+}
+.inner-box-icon {
+  position: absolute;
+  right: -7px;
+}
+
+.chat_container {
+  position: relative;
+  z-index: 9999;
+  position: fixed;
+  background-color: white;
+  width: 400px;
+  right: 92px;
+  height: 500px;
+  bottom: 170px;
+  max-width: 100%;
+  max-height: 80%;
+  box-shadow: 0 5px 40px rgba(0, 0, 0, 0.16) !important;
+  overflow: hidden;
+  border-radius: 12px;
+  opacity: 1;
+}
+.chat_close {
+  position: absolute;
+  right: 1px;
+  z-index: 99999;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.main_logo_box {
+  width: 120px;
+  height: 120px;
+  background-image: url(../images/로고최종_수정.png);
+  background-size: cover;
+  background-position: center;
+}
+.main_logo_img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+#chat_icon {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  position: fixed;
+  bottom: 150px;
+  right: 31px;
+  z-index: 9999;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  line-height: 5px;
+  background: #3851bc;
+  color: #ffffff;
+  cursor: pointer;
+  border: 0;
+  border-radius: 0px;
+  text-decoration: none;
+  transition: opacity 0.2s ease-out;
+  font-size: 28px;
+  border-radius: 50%;
+}
+
+.custom_d_flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.contact-info-left {
+  background: none;
+}
+#abandon_detail_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem 15rem;
+}
+.abandon_detail_box_inner_img {
+  width: 60%;
+  margin-right: 8rem;
+}
+.abandon_detail_box_inner {
+  width: 100%;
+}
+.contact_font {
+  font-weight: 900;
+}
+.instagram-box {
+  background: none;
+}
+/* (전역 페이지에 들어가야함) 올라가는 아이콘 */
+#back-to-top {
+  position: fixed;
+  padding-top: 15px;
+  bottom: 150px;
+  right: 36px;
+  z-index: 9999;
+  width: 32px;
+  height: 32px;
+  text-align: center;
+  line-height: 5px;
+  background: #e1a963;
+  color: #ffffff;
+  cursor: pointer;
+  border: 0;
+  border-radius: 0px;
+  text-decoration: none;
+  transition: opacity 0.2s ease-out;
+  font-size: 28px;
+}
+
+/* 슬라이드 네비게이션에 배경색 없도록 */
+.slides-navigation a {
+  background: none;
+}
+
+.slides-navigation a:hover {
+  background: none;
+  color: #e1a963;
+}
+
+.vetImg{
+	width: 100%;
+	height: 100%
+}
+.long-text{
+  line-height: 2;
+}
